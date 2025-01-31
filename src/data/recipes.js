@@ -1,78 +1,73 @@
 export const recipes = [
   {
-    title: 'Spaghetti Carbonara',
+    title: 'Pizzelles',
     category: 'food',
     ingredients: [
-      '400g spaghetti',
-      '200g pancetta',
-      '4 large eggs',
-      '100g Parmesan cheese',
-      'Black pepper'
+      '3 Large Eggs',
+      '3/4 cup Sugar',
+      '2 teaspoons Vanilla Extract',
+      '1 3/4 cup All-Purpose Flour',
+      '1 stick of Butter melted and cooled'
     ],
     instructions: [
-      'Cook pasta according to package instructions',
-      'Fry pancetta until crispy',
-      'Mix eggs and cheese in a bowl',
-      'Combine pasta with pancetta and egg mixture',
-      'Season with black pepper'
+     'Melt butter and set aside',
+     'Beat eggs and sugar until light yellow',
+     'Add melted butter and vanilla extract',
+     'Add 1 cup of flour and mix until smooth',
+     'Fold together until just blended add remaining flour',
+     'Heat pizzelle baker, place approximately 2 tablespoons of batter',
+     'Close and bake for 2 to 3 minutes',
+     'Remove and cool on a wire rack'
     ],
-    credit: 'Jamie Oliver'
+    credit: 'Instructions from the pizzelle maker box'
   },
   {
-    title: 'Classic Burger',
-    category: 'food',
-    ingredients: [
-      '500g ground beef',
-      'Burger buns',
-      'Lettuce',
-      'Tomato slices',
-      'Cheese slices'
-    ],
-    instructions: [
-      'Form beef into patties',
-      'Season with salt and pepper',
-      'Grill until desired doneness',
-      'Assemble burger with toppings'
-    ],
-    credit: 'Gordon Ramsay'
-  },
-  {
-    title: 'Mojito',
+    title: 'Espresso Martini',
     category: 'drink',
     ingredients: [
-      '2 oz white rum',
-      '1 oz fresh lime juice',
-      '0.75 oz simple syrup',
-      '6-8 fresh mint leaves',
-      'Soda water',
-      'Ice'
+      '2 oz vodka',
+      '1 oz coffee liqueur',
+      '1 oz espresso',
+      '1 oz maple syrup'
     ],
     instructions: [
-      'Muddle mint leaves with simple syrup in a glass',
-      'Add lime juice and rum',
-      'Fill glass with ice',
-      'Top with soda water',
-      'Garnish with mint sprig'
+      'Add all ingredients to a shaker',
+      'Shake vigorously',
+      'Strain into a chilled martini glass',
+      'Garnish with coffee beans'
     ],
-    credit: 'Classic Cocktail Recipe'
+    credit: 'who knows really'
   },
   {
-    title: 'Strawberry Smoothie',
+    title: 'Cactus Margarita',
     category: 'drink',
     ingredients: [
-      '2 cups fresh strawberries',
-      '1 banana',
-      '1 cup yogurt',
-      '1/2 cup milk',
-      'Honey to taste',
-      'Ice cubes'
+      '2 oz orange juice',
+      '2 oz Lime juice',
+      '1 tbsp simple syrup',
+      '2 oz Drylands Cactus',
     ],
     instructions: [
-      'Clean and hull strawberries',
-      'Combine all ingredients in blender',
-      'Blend until smooth',
-      'Adjust sweetness with honey if needed'
+      'add all ingredients to a shaker',
+      'shake vigorously',
+      'strain into a chilled margarita glass',
+      'garnish with a lime wedge'
     ],
-    credit: 'Healthy Smoothie Collection'
+    credit: 'Drylands Distillery'
+  },
+  {
+    title: 'Huckleberry Margarita',
+    category: 'drink',
+    ingredients: [
+      '2 oz Huckleberry vodka',
+      '3/4 oz lime juice',
+      '3/4 oz simple syrup',
+    ],
+    instructions: [
+      'add all ingredients to a shaker',
+      'shake vigorously',
+      'strain into a chilled margarita glass'
+    ],
+    credit: 'Spotted Bear Distillery'
   }
 ]; 
