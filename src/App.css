@@ -11,6 +11,7 @@ body {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  width: 90%;
 }
 
 .App-logo {
@@ -51,12 +52,14 @@ body {
 .recipe-card {
   border: 1px solid #34495e;
   border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 30px;
+  padding: 16px;
+  margin-bottom: 20px;
   background-color: #34495e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
   text-align: left;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .recipe-card:hover {
@@ -66,22 +69,23 @@ body {
 
 .recipe-title {
   color: #fff;
-  font-size: 24px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #e0e0e0;
+  font-size: clamp(20px, 5vw, 24px);
+  margin: 0;
+  width: 100%;
 }
 
 .recipe-content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .recipe-section {
   background-color: #2c3e50;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .recipe-section h3 {
@@ -120,29 +124,32 @@ body {
   color: #ecf0f1;
 }
 
-@media (max-width: 768px) {
-  .recipe-content {
-    grid-template-columns: 1fr;
-    gap: 20px;
+@media (min-width: 768px) {
+  .recipe-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
-  
+
+  .recipe-title {
+    margin-right: 20px;
+  }
+
   .recipe-card {
-    padding: 16px;
+    padding: 24px;
   }
 }
 
 .search-bar {
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px;
 }
 
 .search-input {
   width: 100%;
-  max-width: 400px;
   padding: 10px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  border-radius: 4px;
-  outline: none;
+  box-sizing: border-box;
 }
 
 .search-input:focus {
@@ -161,21 +168,18 @@ body {
 }
 
 .category-filters {
-  margin: 20px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  margin: 15px 0;
+  padding: 0 10px;
 }
 
 .category-btn {
-  padding: 8px 20px;
-  border: 2px solid #3498db;
-  border-radius: 20px;
-  background: none;
-  color: #3498db;
-  cursor: pointer;
-  font-size: 16px;
-  transition: all 0.3s ease;
+  padding: 8px 16px;
+  min-width: 80px;
+  font-size: 14px;
 }
 
 .category-btn:hover {
@@ -190,18 +194,20 @@ body {
 
 .recipe-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #455d7a;
 }
 
 .recipe-category {
   padding: 4px 12px;
   border-radius: 16px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .recipe-category.food {
@@ -212,11 +218,6 @@ body {
 .recipe-category.drink {
   background-color: #2ecc71;
   color: white;
-}
-
-.recipe-title {
-  margin: 0;
-  border-bottom: none;
 }
 
 h1 {
@@ -346,4 +347,20 @@ h1 {
 .nav-btn.active {
   background-color: #3498db;
   color: white;
+}
+
+.recipe-section ul,
+.recipe-section ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.recipe-section li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+@viewport {
+  width: device-width;
+  initial-scale: 1;
 }
