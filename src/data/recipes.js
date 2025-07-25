@@ -106,5 +106,12 @@ export const recipes = [
       '1/2 oz Lemon Juice',
       '1/2 oz Simple Syrup',
       '4 oz chilled black tea',
+    ],
+    instructions: [
+      'Add all ingredients to a shaker with ice.',
+      'Shake well and strain into a glass filled with fresh ice.',
+      'Garnish with a peach slice or lemon wheel, if desired.'
+    ],
+    credit: ''
   }
-]; 
+];
