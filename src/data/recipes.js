@@ -69,5 +69,42 @@ export const recipes = [
       'strain into a chilled margarita glass'
     ],
     credit: 'Spotted Bear Distillery'
+  },
+  {
+    title: 'Traeger Chicken 1 hr',
+    category: 'food',
+    ingredients: [
+      '1/4 cup of brown sugar',
+      '2 tablespoons smoked paprika',
+      '1 tablespoon onion powder',
+      '1 tablespoon garlic powder',
+      '1/2 teaspoon of cayenne pepper',
+      '2 tablespoons of olive oil',
+      '1-2 tablespoons apple cider vinegar',
+      '1 teaspoon salt',
+      '1/2 teaspoon black pepper',
+    ],
+    instructions: [
+      'Prep the Chicken',
+      'Make the Marinade/Rub: In a bowl, combine the brown sugar, smoked paprika, garlic powder, onion powder, cayenne pepper (if using), salt, and black pepper. Add enough olive oil to create a paste-like consistency. If you\'re using apple cider vinegar or juice, add a tablespoon or two to the mixture.',
+      'Coat the Chicken: Rub the marinade/mixture all over the chicken thighs, ensuring they are evenly coated.',
+      'Marinate: Place the coated chicken in a resealable bag or container and refrigerate for at least 30 minutes. For a deeper flavor, you can marinate them for up to a few hours.',
+      'Preheat the Traeger: Set your Traeger grill to 250-275°F (120-135°C).',
+      'Smoke the Chicken: Place the marinated chicken thighs directly on the grill grates.',
+      'Cook: Cook for approximately 1.5 to 2.5 hours, or until a meat thermometer inserted into the thickest part of a thigh (without touching the bone) reads 165°F (74°C).',
+      'Rest: Once cooked, remove the chicken from the grill and let it rest for 5-10 minutes before serving. This helps the juices redistribute, resulting in even more tender chicken.',
+    ],
+    credit: ''
+  },
+  {
+    title: 'Bourbon Peach Tea',
+    category: 'drink',
+    ingredients: [
+      '1.5 oz Old Grand Dad',
+      '1 oz Amaro Nonino',
+      '1/2 oz Peach Liquer',
+      '1/2 oz Lemon Juice',
+      '1/2 oz Simple Syrup',
+      '4 oz chilled black tea',
   }
 ]; 
